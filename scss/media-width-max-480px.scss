@@ -272,10 +272,12 @@
         background: #191919;
         margin: 0;
         width: 100%;
-        min-height: 350px;
+        height:auto;
+        min-height: 200px;
     }
 
     .video-presentation-video {
+        margin: auto 0;
         width: 100%;
         height: auto;
     }
