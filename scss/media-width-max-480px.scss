@@ -281,10 +281,12 @@
     }
 
     .video-presentation-video-controls-box {
-        padding: 10px auto;
+        padding: 0 auto;
+        padding-top: 15px;
         width: 100%;
         bottom: 0;
         top: 0;
+        left:0;
         width: 100%;
     }
 
@@ -309,7 +311,7 @@
     .mobile-devices-title {
         flex-basis: 100%;
         margin: 0;
-        height: 50px;
+        min-height: 50px;
         text-align: center;
     }
 
