@@ -272,7 +272,7 @@
         background: #191919;
         margin: 0;
         width: 100%;
-        height: auto;
+        min-height: 350px;
     }
 
     .video-presentation-video {
@@ -282,9 +282,9 @@
 
     .video-presentation-video-controls-box {
         padding: 0 auto;
-        padding-top: 15px;
+//        padding-top: 15px;
         width: 100%;
-        bottom: 0;
+//        bottom: 0;
         top: 0;
         left:0;
         width: 100%;
@@ -293,7 +293,7 @@
     .video-presentation-video-controls-box-title,
     .video-presentation-video-controls-box-timer,
     .video-presentation-video-controls-box-text {
-        margin: 0;
+//        margin: 0;
     }
 
     .mobile-devices {
