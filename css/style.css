@@ -1580,21 +1580,37 @@ li:first-letter {
   .latest-projects-article-button-2 {
     left: 55%; }
   .video-presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     background: #191919;
     margin: 0;
     width: 100%;
     height: auto;
-    min-height: 200px; }
+    min-height: 350px; }
   .video-presentation-video {
-    margin: auto 0;
-    width: 100%;
+    margin: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
     height: auto; }
   .video-presentation-video-controls-box {
     padding: 0 auto;
     width: 100%;
     top: 0;
     left: 0;
-    width: 100%; }
+    mmin-height: 350px; }
+  .video-presentation-video-controls-box-title,
+  .video-presentation-video-controls-box-timer,
+  .video-presentation-video-controls-box-text {
+    margin: 0; }
   .mobile-devices {
     display: -webkit-box;
     display: -ms-flexbox;
