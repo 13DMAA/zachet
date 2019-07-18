@@ -1598,8 +1598,7 @@ li:first-letter {
     min-height: 350px; }
   .video-presentation-video {
     margin: 0;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    width: 100%;
     height: auto; }
   .video-presentation-video-controls-box {
     padding: 0 auto;
